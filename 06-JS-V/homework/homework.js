@@ -15,7 +15,7 @@ function crearUsuario() {
     this.password = opciones.password;
 
     this.saludar = function(){
-      return 'Hola, mi nombre es nombre' + this.nombre;
+      return 'Hola, mi nombre es ' + this.nombre;
     }
   }  
   return Usuario; 
